@@ -16,6 +16,7 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeSidebar] = { "#000088", "#000088" },
 	[SchemeBackground] = { "#000000", "#000000" },
 	[SchemeOut] = { "#000000", "#00ffff" },
+	[SchemeBorders] = { "#00FF00", "#00FF00" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
@@ -25,3 +26,6 @@ static unsigned int lines      = 0;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
+
+/* Size of the window border */
+static const unsigned int border_width = 5;
