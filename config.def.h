@@ -21,3 +21,6 @@ static unsigned int lines      = 0;
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
+
+
+static int min_width = 500;
