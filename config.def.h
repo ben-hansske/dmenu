@@ -15,6 +15,8 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeInput] = { "#0000ff", "#000000" },
 	[SchemeSidebar] = { "#000088", "#000088" },
 	[SchemeBackground] = { "#000000", "#000000" },
+	[SchemeSelHighlight] = { "#ffc978", "#005577" },
+	[SchemeNormHighlight] = { "#ffc978", "#222222" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 	[SchemeBorders] = { "#00FF00", "#00FF00" },
 };
